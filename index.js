@@ -1,0 +1,32 @@
+function introduction(name = "Aki"){
+    return `Hi, my name is ${name}.`
+}
+
+function introductionWithLanguage(name = "Aki" , language = "Ember.js"){
+    return `Hi, my name is ${name} and I am learning to program in ${language}.`
+}
+
+function introductionWithLanguageOptional(name , language = JavaScript){
+    return `Hi, my name is ${name} and I am learning to program in ${language}.`
+}
+
+function introductionWithLanguageOptional(name , language = "JavaScript"){
+    return `Hi, my name is ${name} and I am learning to program in ${language}.`
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+function introductionWithLanguage(firstName = 'Eric', firstLanguage = 'JavaScript'){
+    console.log(`${firstName} , ${firstLanguage}!`)
+}
+introductionWithLanguage();
